@@ -1,9 +1,16 @@
 ---
 layout: default
-Title: Raspberry Pi 4 GettingStarted
-Doc: RaspberryPi4GettingStarted.pdf
+Title: Raspberry Pi 4 Getting Started
+Doc: Raspberry Pi 4 Getting Started
+Doc_url: RaspberryPi4GettingStarted.pdf
 Video: https://www.youtube.com/watch?v=BpJCAafw2qE
-Act: RaspberryPi4GettingStarted.Activity.docx
+Video_url: https://www.youtube.com/watch?v=BpJCAafw2qE
+Video2: None
+Video2_url: None
+Resource: None
+Resource_url: None
+Act: Raspberry Pi 4 Getting Started Activity
+Act_url: RaspberryPi4GettingStarted.Activity.docx
 ---
 <!doctype html>
 <html>
@@ -15,10 +22,20 @@ Act: RaspberryPi4GettingStarted.Activity.docx
     <h1>piRover Builds by K2</h1>
     <h2>{{ page.Title }}</h2>
     <ul>
-        <li><b>Document:</b> <a href={{ page.Doc }} target="_blank">{{ page.Title}}</a></li>
-        <li><b>Video:</b>  <a href={{ page.Video }} target="_blank">{{ page.Title}}</a></li>
+        {% if page.Doc != "None" %}
+          <li><b>Document:</b> <a href={{ page.Doc_url }} target="_blank">{{ page.Doc}}</a></li>
+        {% endif %}
+        {% if page.Video != "None" %}
+          <li><b>Video:</b>  <a href={{ page.Video_url }} target="_blank">{{ page.Video}}</a></li>
+        {% endif %}
+        {% if page.Video2 != "None" %}
+          <li><b>Video:</b>  <a href={{ page.Video2_url }} target="_blank">{{ page.Video2}}</a></li>
+        {% endif %}
+        {% if page.Resource != "None" %}
+        <li><b>Resource:</b>  <a href={{ page.Resource_url }} target="_blank">{{ page.Resource}}</a></li>
+        {% endif %}
         {% if page.Act != "None" %}
-        <li><b>Activity:</b>  <a href={{ page.Act }} target="_blank">{{ page.Title}}</a></li>
+        <li><b>Activity:</b>  <a href={{ page.Act_url }} target="_blank">{{ page.Act}}</a></li>
         {% endif %}
     </ul>
 
