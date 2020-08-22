@@ -16,7 +16,7 @@ Act: None
     <h2>{{ page.Title }}</h2>
     <ul>
         <li><b>Document:</b> <a href={{ page.Doc }}>{{ page.Title}}</a></li>
-        <li><b>Video:</b>  <a href={{ page.Video }}>{{ page.Title}}</a></li>
+        <li><b>Video:</b>  <a href={{ page.Video }} target="_blank">{{ page.Title}}</a></li>
         {% if page.Act != "None" %}
         <li><b>Activity:</b>  <a href={{ page.Act }}>{{ page.Title}}</a></li>
         {% endif %}
