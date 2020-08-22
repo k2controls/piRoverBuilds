@@ -2,7 +2,7 @@
 Title: Course Introduction
 Doc: CourseIntro-NMC.pdf
 Video: https://youtu.be/bX-Vbztaeo4
-Act: False
+Act: None
 ---
 <!doctype html>
 <html>
@@ -16,7 +16,7 @@ Act: False
     <ul>
         <li><b>Document:</b> <a href={{ page.Doc }}>{{ page.Title}}</a></li>
         <li><b>Video:</b>  <a href={{ page.Video }}>{{ page.Title}}</a></li>
-        {% if page.Act %}
+        {% if page.Act != None %}
         <li><b>Activity:</b>  <a href={{ page.Act }}>{{ page.Title}}</a></li>
         {% endif %}
     </ul>
