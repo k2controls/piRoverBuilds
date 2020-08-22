@@ -1,0 +1,43 @@
+---
+layout: default
+Title: Student Interviews
+Doc: None
+Doc_url: None
+Video: None
+Video_url: None
+Video2: None
+Video2_url: None
+Resource: None
+Resource_url: None
+Act: Project Brainstorming
+Act_url: StudentIntroB.docx
+
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>piRover Builds by K2</title>
+  </head>
+  <body>
+    <h1>piRover Builds by K2</h1>
+    <h2>{{ page.Title }}</h2>
+    <ul>
+        {% if page.Doc != "None" %}
+          <li><b>Document:</b> <a href={{ page.Doc_url }} target="_blank">{{ page.Doc}}</a></li>
+        {% endif %}
+        {% if page.Video != "None" %}
+          <li><b>Video:</b>  <a href={{ page.Video_url }} target="_blank">{{ page.Video}}</a></li>
+        {% endif %}
+        {% if page.Video2 != "None" %}
+          <li><b>Video:</b>  <a href={{ page.Video2_url }} target="_blank">{{ page.Video2}}</a></li>
+        {% endif %}
+        {% if page.Resource != "None" %}
+          <li><b>Resource:</b>  <a href={{ page.Resource_url }} target="_blank">{{ page.Resource}}</a></li>
+        {% endif %}
+        {% if page.Act != "None" %}
+          <li><b>Activity:</b>  <a href={{ page.Act_url }} target="_blank">{{ page.Act}}</a></li>
+        {% endif %}
+    </ul>
+  </body>
+</html>
