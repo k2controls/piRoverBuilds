@@ -5,3 +5,30 @@
     <li><b>Video:</b> <a href="https://www.youtube.com/watch?v=BpJCAafw2qE">Raspberry Pi 4 Getting Started</a></li>
     <li><b>Activity:</b> <a href="RaspberryPi4GettingStarted.Activity.docx">Raspberry Pi 4 Getting Started</a></li>
 </ul>
+---
+layout: default
+Title: Raspberry Pi 4 GettingStarted
+Doc: RaspberryPi4GettingStarted.pdf
+Video: https://www.youtube.com/watch?v=BpJCAafw2qE
+Act: RaspberryPi4GettingStarted.Activity.docx
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>piRover Builds by K2</title>
+  </head>
+  <body>
+    <h1>piRover Builds by K2</h1>
+    <h2>{{ page.Title }}</h2>
+    <ul>
+        <li><b>Document:</b> <a href={{ page.Doc }} target="_blank">{{ page.Title}}</a></li>
+        <li><b>Video:</b>  <a href={{ page.Video }} target="_blank">{{ page.Title}}</a></li>
+        {% if page.Act != "None" %}
+        <li><b>Activity:</b>  <a href={{ page.Act }} target="_blank">{{ page.Title}}</a></li>
+        {% endif %}
+    </ul>
+
+
+  </body>
+</html>
