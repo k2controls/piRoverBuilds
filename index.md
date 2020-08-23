@@ -17,3 +17,4 @@ layout: default
 - [L07: Scrum Standup](L07.ScrumStandup)
 - [L08: piRover Wiring](L08.piRoverWiring)
 - [L09: Battery Charging](L09.BatteryCharging)
+- [L10: Test and Deploy](L10.TestAndDeploy)
