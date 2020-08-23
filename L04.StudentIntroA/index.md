@@ -6,4 +6,4 @@ layout: default
 
 ## Student Interview
 
-- **Activity:** [Student Interview](StudentIntroA.docx)
+- **Activity:** [Student Interview](StudentIntroA.docx){:target="_blank"}
