@@ -22,3 +22,5 @@ layout: default
 - [L12: Build Validation - Part 2](L12.BuildValidation2)
 - [L13: Linux Investigation](L13.LinuxInvestigation)
 - [L14: Python Investigation](L14.PythonInvestigation)
+- [L15: Project 1 Prep](L15.Project1Prep)
+- [P01: Project 1](P01.YahboomEvaluation)
