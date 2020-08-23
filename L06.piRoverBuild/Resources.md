@@ -1,6 +1,6 @@
 ---
 layout: default
----
+
 ## Yahboom Instruction Manual   
       -	[Page 1](G1TankManual1.jpg)
       -	[Page 2](G1TankManual2.jpg)
@@ -13,3 +13,4 @@ layout: default
       - [piRover - Build 2](https://youtu.be/Tlb-4Ra777o)
       -	[piRover - Build 3a](https://youtu.be/NFFaZZyUyyQ)
       -	[piRover - Build 3b](https://youtu.be/Pxjj1BlSdtw)
+---
