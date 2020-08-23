@@ -24,3 +24,6 @@ layout: default
 - [L14: Python Investigation](L14.PythonInvestigation)
 - [L15: Project 1 Prep](L15.Project1Prep)
 - [P01: Project 1](P01.YahboomEvaluation)
+- [L16: Creating a Remote Connection](L16.RemoteConnection)
+- [L17: Python - Getting Started](L17.PythonGettingStarted)
+- [L18: Yahboom Operating System(OS) Installation](L18.YahboomOSInstall)
