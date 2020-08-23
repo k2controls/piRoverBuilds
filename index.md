@@ -15,3 +15,5 @@ layout: default
 - [L05: piRover Build Preparation](L05.piRoverBuildPrep)
 - [L06: piRover Build](L06.piRoverBuild)
 - [L07: Scrum Standup](L07.ScrumStandup)
+- [L08: piRover Wiring](L08.piRoverWiring)
+- [L09: Battery Charging](L09.BatteryCharging)
