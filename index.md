@@ -18,3 +18,7 @@ layout: default
 - [L08: piRover Wiring](L08.piRoverWiring)
 - [L09: Battery Charging](L09.BatteryCharging)
 - [L10: Test and Deploy](L10.TestAndDeploy)
+- [L11: Build Validation - Part 1](L11.BuildValidation1)
+- [L12: Build Validation - Part 2](L12.BuildValidation2)
+- [L13: Linux Investigation](L13.LinuxInvestigation)
+- [L14: Python Investigation](L14.PythonInvestigation)

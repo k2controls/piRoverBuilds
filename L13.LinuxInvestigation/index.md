@@ -6,7 +6,7 @@ layout: default
 
 ## Linux Investigation
 
-- **Video:** [Test and Deploy (Hybrid Robotics)](https://youtu.be/2ZtlRotO9VA){:target="_blank"}
-- **Activity:** [Test and Deploy](TestAndDeploy.docx){:target="_blank"}
-
+- **Document:** [Linux Investigation](LinuxInvestigation.pdf){:target="_blank"}
+- **Resource:** [Linux for Robotics](https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/linux-for-robotics/){:target="_blank"}
+- **Resource:** [Basics of CLI](https://www.linux.com/training-tutorials/how-use-linux-command-line-basics-cli/){:target="_blank"}
 
