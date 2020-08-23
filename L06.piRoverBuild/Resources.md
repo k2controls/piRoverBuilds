@@ -1,4 +1,7 @@
-      ## Yahboom Instruction Manual   
+---
+layout: default
+---
+## Yahboom Instruction Manual   
       -	[Page 1](G1TankManual1.jpg)
       -	[Page 2](G1TankManual2.jpg)
       ## Yahboom Videos  
