@@ -27,3 +27,4 @@ layout: default
 - [L16: Creating a Remote Connection](L16.RemoteConnection)
 - [L17: Python - Getting Started](L17.PythonGettingStarted)
 - [L18: Yahboom Operating System(OS) Installation](L18.YahboomOSInstall)
+- [L19: Configurating the Raspberry Pi](L19.ConfiguringRPi)
