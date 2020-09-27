@@ -6,6 +6,6 @@ layout: default
 
 ## Blink
 
-- **Document:** [Blink](Blink.pdf){:target="_blank"}
+- **Document:** [Blink with VS Code](piRoverBlink.pdf){:target="_blank"}
 
 
