@@ -4,7 +4,7 @@ layout: default
 
 # piRover Builds by K2
 
-## Blink
+## user Blink
 
 - **Document:** [User Blink](piRoverUserBlink.pdf){:target="_blank"}
 - **Python:** [goodDog_badDog.py](goodDog_badDog.py){:target="_blank"}
