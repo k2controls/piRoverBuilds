@@ -1,29 +1,61 @@
-''' Traffic Light Simulation - Student Project
-[your name]
-[date]
+''' Pushbutton Toggle using while to check for button release
+Keith E. Kelly
+10/4/20
 '''
 #import required libraries
+import RPi.GPIO as GPIO
+import time
 
 #create constants to represent piRover LED pin numbers
-
-#create constant to represent the green, amber,and red timings for NS
-
-#create constant to represent the green, amber,and red timings for EW
-
-#create timing variables for green, amber, and red
-green_delay = 0
-amber_delay = 0
-red_delay = 0 
+RED_PIN = 15
+GREEN_PIN = 13
+BLUE_PIN = 18
+#create constants to represent piRover pushbutton pin number
+PB_PIN = 24
 
 # Configure GPIO setting
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BOARD)
 
-# Set specific pints as output
+# Set pin LED pins as output
+GPIO.setup(RED_PIN, GPIO.OUT)
+GPIO.setup(GREEN_PIN, GPIO.OUT)
+GPIO.setup(BLUE_PIN, GPIO.OUT)
+# Set pushbutton pin as input
+GPIO.setup(PB_PIN, GPIO.IN)
 
-# Initialize all LEDs to OFF
+print("This solution demonstrates waiting for PB release to toggle the LEDs.")
+print()
+print("Press the pushbutton to toggle the LEDs.")
 
-# Welcome user and prompt for NS or EW simulation
+switch_state = True #active low - is high until pushed
+lamp_on = False
+# toggle light 10 times and then stop
+count = 0
 
-# Check user's direction input. If valid then set light timing variables
+while count < 10:
+    #wait for push
+    while switch_state == True:
+        switch_state = GPIO.input(PB_PIN)
+    #wait for release
+    while switch_state == False:
+        switch_state = GPIO.input(PB_PIN)
+    # switch has been released - update push count
+    count = count + 1
+    print(count)
+    if not lamp_on:
+        # turn lamps on
+        GPIO.output(RED_PIN, True)
+        GPIO.output(GREEN_PIN, True)
+        GPIO.output(BLUE_PIN, True)
+        # update variable tracking lamp status
+        lamp_on = True
+    else:
+        # turn lamps off
+        GPIO.output(RED_PIN, False)
+        GPIO.output(GREEN_PIN, False)
+        GPIO.output(BLUE_PIN, False)
+        # update variable tracking lamp status
+        lamp_on = False
 
-# Use a while loop initially to test light cycles
-# Implement for loop as time permits
+GPIO.cleanup()
