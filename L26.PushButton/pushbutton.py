@@ -53,7 +53,7 @@ while True:
 #         GPIO.output(BLUE_PIN, True)
 #     time.sleep(.1)
 
-# Let try to make the switch only work 10 times
+# Let's try to make the switch only work 10 times
 # count = 0
 # while count < 10:
 #     if GPIO.input(PB_PIN):  #switch is active low
@@ -68,4 +68,4 @@ while True:
 #         #count += 1
 #         print(count)          
 #     time.sleep(.1)
-
+# GPIO.cleanup()

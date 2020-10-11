@@ -10,6 +10,7 @@ import time
 RED_PIN = 15
 GREEN_PIN = 13
 BLUE_PIN = 18
+#create constants to represent piRover pushbutton pin number
 PB_PIN = 24
 
 # Configure GPIO setting
@@ -20,13 +21,16 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setup(RED_PIN, GPIO.OUT)
 GPIO.setup(GREEN_PIN, GPIO.OUT)
 GPIO.setup(BLUE_PIN, GPIO.OUT)
+# Set pushbutton pin as input
 GPIO.setup(PB_PIN, GPIO.IN)
+
+print("Press the pushbutton to cycle the LEDs through red, green, blue, and off.")
 
 # Check the normal state of the push button
 state = GPIO.input(PB_PIN)
 print(f"Pushbutton is currently {state}.")
 
-# i controls lED cycle - values 0 through 3
+### i controls lED cycle - values 0 through 3
 i = 0
 
 while True:
@@ -64,7 +68,7 @@ while True:
         GPIO.output(GREEN_PIN, False)
         GPIO.output(BLUE_PIN, True)
 
-# i controls lED cycle - values 0 through 3
+### i controls lED cycle - values 0 through 3
 # i = 0
 # cycle_counter = 0
 # while cycle_counter < 5:
