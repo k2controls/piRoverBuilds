@@ -17,7 +17,7 @@ red_delay = 0
 
 # Configure GPIO setting
 
-# Set specific pints as output
+# Set specific pins as output
 
 # Initialize all LEDs to OFF
 
