@@ -1,5 +1,5 @@
 ''' Demonstrating infrared as input
-Note: This demo requires and infrared device 
+Note: This demo requires an infrared device 
 to test. Additionally, a jumper is required on the 
 Arduino function switch - see hardware documentation.
 
@@ -30,6 +30,7 @@ GPIO.setup(IR_PIN, GPIO.IN)
 
 print("This solution demonstrates the IR sensor as an input.")
 print("You need an IR transmitter like tv remote.")
+print("A jumper is required at first of the Arduino function switch.")
 print()
 print("Press a button on the remote to light the LEDs")
 
@@ -39,6 +40,7 @@ while True:
     print(state)
     #wait for pin to go low
     #pulses so we need to read frequently
+    print("Waiting for IR pulse")
     while state == 1:
         state = GPIO.input(IR_PIN)
         time.sleep(.1)
