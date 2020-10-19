@@ -50,7 +50,7 @@ while True:
     GPIO.output(GREEN_PIN, True)
     GPIO.output(BLUE_PIN, True)
     time.sleep(1)
-    #turn off and start again
+    #turn off and start againPrint
     GPIO.output(RED_PIN, False)
     GPIO.output(GREEN_PIN, False)
     GPIO.output(BLUE_PIN, False)
