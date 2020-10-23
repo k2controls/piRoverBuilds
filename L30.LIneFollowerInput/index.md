@@ -9,10 +9,3 @@ layout: default
 
 - **Document:** [Line Follower Input](LineFollowerInput.pdf){:target="_blank"}
 
-
-
-
-
-
-
-
