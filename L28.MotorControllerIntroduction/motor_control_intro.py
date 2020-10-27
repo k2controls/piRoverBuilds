@@ -8,19 +8,21 @@ def init():
     print("Initializing the GPIO ports supporting drive ops.")
     
 def forward(sec):
-    print("Moving forward for " + str(sec) + " seconds.")
+    print(f"Moving forward for {sec} seconds.")
     time.sleep(sec)
 
 def backward(sec):
-    print("Moving backward for {} seconds.".format(sec))
+    print(f"Moving backward for {sec} seconds.")
     time.sleep(sec)
 
 def right_turn(sec):
-    print("Turning right for {} seconds.".format(sec))
+    #right turn by stop on right and forward on left
+    print(f"Turning right for {sec} seconds.")
     time.sleep(sec)
 
 def left_turn(sec):
-    print("Turning left for {} seconds.".format(sec))
+    #left turn by stop on left and forward on right
+    print(f"Turning left for {sec} seconds.")
     time.sleep(sec)
 
 #program starts here
