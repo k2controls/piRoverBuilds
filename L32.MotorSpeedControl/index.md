@@ -4,9 +4,7 @@ layout: default
 
 # piRover Builds by K2
 
-## Motor Speed Control
+## Motor Speed Control - introduction
 
-
-- **Document:** [Motor Speed Control](MotorSpeedControl.pdf){:target="_blank"}
-- **Python:** [motor_speed_control.py](motor_speed_control.py){:target="_blank"}
+- **Document:** [Motor Speed Control - screen captures](MotorSpeedIntroduction.pdf){:target="_blank"}
 
