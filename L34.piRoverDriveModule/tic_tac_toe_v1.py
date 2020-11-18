@@ -9,7 +9,7 @@ from time import sleep
 
 sleep(1)
 
-def display_board(board):i
+def display_board(board):
     os.system('cls||clear')
     
     print('   |   |')
