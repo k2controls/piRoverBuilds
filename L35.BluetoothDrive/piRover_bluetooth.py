@@ -14,7 +14,6 @@ from enum import Enum
 from queue import SimpleQueue
 
 class Action(Enum):
-    NONE            = -1
     STOP            = 0
     FORWARD         = 1
     BACKWARD        = 2
