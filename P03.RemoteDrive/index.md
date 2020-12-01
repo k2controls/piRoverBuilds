@@ -16,4 +16,6 @@ layout: default
 ### Part 3
 - **Document:** [Project 3 Remote Drive - LED](P03.RemoteDrive.LED.pdf){:target="_blank"}
 
+### Optional
+- **Document:** [Enabling Remote Drive at Startup](EnablingRemoteDriveAtStartup.pdf){:target="_blank"}
 
