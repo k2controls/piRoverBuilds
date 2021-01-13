@@ -8,10 +8,10 @@ layout: default
 
 - **Document:** [piRover Build ](piRoverBuild.pdf){:target="_blank"}
 
-### Yahboom Instruction Manual ###
+### Yahboom Instruction Manual (New) ###
 
-- [Page 1](G1TankManual1.jpg){:target="_blank"}
-- [Page 2](G1TankManual2.jpg){:target="_blank"}
+- [Page 1](G1TankManual1NEW.jpg){:target="_blank"}
+- [Page 2](G1TankManual2NEW.jpg){:target="_blank"}
 
 ### Yahboom Videos ### 
 
