@@ -10,8 +10,8 @@ layout: default
 
 ### Yahboom Instruction Manual (New) ###
 
-- [Page 1](G1TankManual1NEW.jpg){:target="_blank"}
-- [Page 2](G1TankManual2NEW.jpg){:target="_blank"}
+- [Page 1](G1TankManual1New.jpg){:target="_blank"}
+- [Page 2](G1TankManual2New.jpg){:target="_blank"}
 
 ### Yahboom Videos ### 
 
